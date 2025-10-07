@@ -48,9 +48,3 @@ a{text-decoration:none;color:inherit}
 .footer .contact{margin:0 0 6px;font-size:14px}
 .footer .copy{margin:0;font-size:13px}
 .fab{position:fixed;right:14px;bottom:16px;width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:#e3f2fd;border:1px solid #bbdefb}
-:root{ --maxw:420px; }         /* từ 720/760 → 420 */
-/* canh giữa toàn trang khi xem desktop lớn */
-body{ background:#fff; }
-@media (min-width:560px){
-  body{ background:linear-gradient(180deg,#ecf7f2 0,#fff 70%) fixed; }
-}
