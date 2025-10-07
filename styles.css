@@ -62,24 +62,3 @@ a{text-decoration:none;color:inherit}
 
 .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
 .url{word-break:break-all}
-
-
-/* Fixed centered shell like a mobile frame on all viewports */
-body{background:#eceff1}
-.page{width:420px;max-width:100vw;margin:0 auto;background:#fff;min-height:100dvh;box-shadow:0 10px 30px rgba(2,75,49,.08)}
-.topbar{left:unset;right:unset;width:100%}
-/* Ensure every section edge aligns */
-.wrap{padding-left:12px;padding-right:12px}
-.banner,.notice,.mobile-shell,.section,.footer{width:100%}
-
-
-/* v5: tighten padding and ensure components do not bleed outside the fixed frame */
-.page{width:414px;max-width:100vw;margin:0 auto;background:#fff;min-height:100dvh;box-shadow:0 10px 30px rgba(2,75,49,.08);overflow:hidden}
-.wrap{padding-left:16px;padding-right:16px}
-.side{width:84px}
-.card{border-radius:16px}
-.feed{padding-right:0}
-
-/* v6: smaller CTA buttons, larger H1 */
-.rounded-xl{border-radius:999px;padding:10px 14px;font-size:14px}
-.notice-title{font-size:15px;padding:10px 14px 10px 32px}
