@@ -48,3 +48,15 @@ a{text-decoration:none;color:inherit}
 .footer .copy{margin:0;font-size:13px}
 .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
 .url{word-break:break-all}
+
+
+/* CTA row above H1 */
+.cta-row{display:flex;gap:10px;margin:6px 0 10px}
+.cta-row .btn{flex:1}
+.btn.grad{background:linear-gradient(90deg,#e15b4d 0%,#f3aa9d 100%);color:#fff;border:none}
+.btn.grad:hover{filter:brightness(.98)}
+/* H1 size bump */
+.notice-title{font-size:16px;font-weight:800}
+@media (min-width: 480px){
+  .notice-title{font-size:18px}
+}
