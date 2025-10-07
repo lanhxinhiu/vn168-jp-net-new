@@ -1,0 +1,50 @@
+/* Mobile-first UI for VN168 (Pages-ready) */
+:root{--green:#024B31;--text:#181a19;--muted:#5f6a65;--line:#e7efea;--soft:#fafdfb;--radius:16px;--maxw:760px}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font:16px/1.6 Inter, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;color:var(--text);background:#fff}
+img{max-width:100%;height:auto;display:block}
+a{text-decoration:none;color:inherit}
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 12px}
+.topbar{position:sticky;top:0;z-index:40;background:#fff;border-bottom:1px solid var(--line)}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between;padding:8px 12px}
+.menu{background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+.banner{background:linear-gradient(180deg,#ecf7f2 0,#fff 70%);padding:8px 0}
+.hero-img{border-radius:12px}
+.notice .wrap{display:flex;align-items:center;gap:10px;padding:6px 12px}
+.pill{flex:1;background:#fff3cd;border:1px solid #ffe69c;color:#664d03;padding:8px 10px;border-radius:999px;font-size:14px}
+.notice .link{color:#1d3c90;font-size:14px}
+.mobile-shell .app{display:grid;grid-template-columns:auto 1fr;gap:12px;padding:8px 0}
+.side{display:flex;flex-direction:column;gap:8px;width:82px}
+.side-item{display:block;text-align:center;padding:10px 6px;border:1px solid var(--line);border-radius:14px;background:var(--soft);font-size:12px}
+.feed{display:flex;flex-direction:column;gap:12px}
+.card{border:1px solid var(--line);border-radius:18px;padding:12px;background:linear-gradient(180deg,#fff 0,#fff 66%,#fff2ef 100%)}
+.card-hd{display:flex;align-items:center;justify-content:space-between;margin-bottom:4px}
+.card h2{margin:0;font-size:16px}
+.tag{font-size:12px;background:#ffe2e2;color:#842029;padding:2px 8px;border-radius:999px}
+.actions{margin-top:8px}
+.btn{display:inline-block;text-align:center;padding:10px 12px;border-radius:12px;font-weight:700}
+.btn.primary{background:var(--green);color:#fff}
+.btn.ghost{border:1px solid var(--line);background:#fff}
+.btn.block{display:block;width:100%}
+.btn.sm{padding:8px 10px}
+.more{margin-top:2px}
+.section{padding:10px 0}
+.section h2{margin:0 0 8px;font-size:18px}
+.list{list-style:none;margin:0;padding:0}
+.list li{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:10px 12px;border:1px dashed var(--line);border-radius:12px;margin-bottom:8px;font-size:14px}
+.badge{font-size:12px;padding:3px 8px;border-radius:999px;background:#eef7f3;color:#0f5132}
+.badge.ok{background:#daf5e8}
+.badge.alt{background:#fff2d9;color:#7a5200}
+.badge.self{background:#e7efff;color:#1d3c90}
+.note{color:var(--muted);font-size:13px}
+.faq{border:1px solid var(--line);border-radius:12px;padding:10px;margin-bottom:8px}
+.faq summary{cursor:pointer;font-weight:600}
+.faq div{color:var(--muted);padding-top:6px}
+.footer{background:#0b3a2a;color:#d9f3ea;margin-top:8px}
+.footer .wrap{padding:16px 12px}
+.footer a{color:#d9f3ea}
+.footer .about{margin:0 0 6px}
+.footer .contact{margin:0 0 6px;font-size:14px}
+.footer .copy{margin:0;font-size:13px}
+.fab{position:fixed;right:14px;bottom:16px;width:48px;height:48px;border-radius:50%;display:grid;place-items:center;background:#e3f2fd;border:1px solid #bbdefb}
