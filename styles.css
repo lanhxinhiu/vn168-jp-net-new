@@ -11,7 +11,7 @@ a{text-decoration:none;color:inherit}
 .banner{background:linear-gradient(180deg,#ecf7f2 0,#fff 70%);padding:8px 0}
 .hero-img{border-radius:12px;aspect-ratio:16/5;width:100%;object-fit:cover}
 .notice .wrap{display:block;padding:6px 12px}
-.notice-title{margin:0;font-size:14px;line-height:1.4;font-weight:600;color:#664d03;background:#fff3cd;border:1px solid #ffe69c;border-radius:999px;padding:8px 10px;display:inline-block}
+.notice-title{margin:0;font-size:14px;line-height:1.4;font-weight:600;color:#664d03;background:#fff3cd;border:1px solid #ffe69c;border-radius:5px;padding:8px 10px;display:inline-block}
 .mobile-shell .app{display:grid;grid-template-columns:auto 1fr;gap:12px;padding:8px 0}
 .side{display:flex;flex-direction:column;gap:8px;width:88px}
 .side-item{display:block;text-align:center;padding:12px 6px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 1px 0 rgba(0,0,0,.02);font-size:12px}
