@@ -60,10 +60,3 @@ a{text-decoration:none;color:inherit}
 @media (min-width: 480px){
   .notice-title{font-size:18px}
 }
-
-
-/* Force H1 pill radius to 5px across all overrides */
-.notice .wrap .notice-title,
-.notice-title{
-  border-radius:5px !important;
-}
